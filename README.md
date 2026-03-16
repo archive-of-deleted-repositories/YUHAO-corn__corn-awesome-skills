@@ -19,51 +19,51 @@
 
 # Corn's Awesome Skills
 
-实用优先的 Claude Code Skills 集合。每个 Skill 都是为了解决具体问题而设计的开箱即用工具。
+A practical collection of Claude Code skills designed to solve real problems. Each skill is ready to use out of the box.
 
-## 🤔 Why This Repo?
+## Why This Repo?
 
-- 🛠️ **开箱即用** — 安装后立即在对话中触发，无需复杂配置
-- 🎯 **解决实际问题** — 从代码分析到图表生成，从技术写作到前端设计
-- 🎨 **高设计质量** — 注重输出物的视觉呈现，不只是"能用"
+- 🛠️ **Plug & Play** — Install and trigger naturally in conversation, no complex setup
+- 🎯 **Real Problem Solvers** — From code analysis to diagram generation, technical writing to frontend design
+- 🎨 **Quality First** — Focus on visual output quality, not just "it works"
 
-## 🗂️ Skills 目录
+## What's Inside
 
-| # | Skill | 用途 |
-|---|-------|------|
-| 01 | [project-anatomy](./project-anatomy) | 分析软件项目架构，用客观单位（进程、入口文件、组件、函数）理解代码库 |
-| 02 | [theater-explainer](./theater-explainer) | 将技术文章转化为交互式"剧场"网页，让概念变成角色对话 |
-| 03 | [excalidraw](./excalidraw) | 生成专业的 Excalidraw 图表，支持绑定文本和箭头 |
-| 04 | [concept-diagram-prompt](./concept-diagram-prompt) | 生成用于 AI 图像生成的概念图提示词 |
+| # | Skill | Description |
+|---|-------|-------------|
+| 01 | [project-anatomy](./project-anatomy) | Analyze software architecture using objective units — processes, entry files, components, functions |
+| 02 | [theater-explainer](./theater-explainer) | Transform technical articles into interactive "theater" web pages with character dialogues |
+| 03 | [excalidraw](./excalidraw) | Generate professional Excalidraw diagrams with bound text and arrows |
+| 04 | [concept-diagram-prompt](./concept-diagram-prompt) | Generate prompts for AI image generation of concept diagrams |
 
-## 🚀 如何使用
+## How to Use
 
-### 安装单个 Skill
+### Install a Single Skill
 
 ```bash
 npx skills add https://github.com/YUHAO-corn/corn-awesome-skills/tree/main/project-anatomy --agent claude-code
 ```
 
-### 安装全部 Skills
+### Install All Skills
 
 ```bash
 npx skills add https://github.com/YUHAO-corn/corn-awesome-skills --agent claude-code
 ```
 
-### 触发 Skill
+### Trigger a Skill
 
-安装后，在 Claude Code 对话中直接使用自然语言触发：
+After installation, use natural language in your Claude Code conversation:
 
-- "帮我分析一下这个项目" → 触发 project-anatomy
-- "把这个做成剧场形式" → 触发 theater-explainer
-- "画个架构图" → 触发 excalidraw
+- "Help me analyze this codebase" → triggers project-anatomy
+- "Make this into a theater format" → triggers theater-explainer
+- "Draw an architecture diagram" → triggers excalidraw
 
-## 👤 谁适合用
+## Who Is This For
 
-- 想深入理解代码库的开发者
-- 需要生成技术文档/图表的工程师
-- 想要创意化表达技术内容的内容创作者
+- Developers who want to deeply understand codebases
+- Engineers needing to generate technical docs/diagrams
+- Content creators wanting creative ways to explain technical concepts
 
-## ⭐ 欢迎贡献
+## Contributing
 
-如果你有实用的 Skill想要分享，欢迎提交 PR！
+Have a useful skill to share? PRs welcome!
